@@ -2,8 +2,8 @@
   "_chunk-0cbd44a4.js": {
     "file": "assets/chunks/chunk-0cbd44a4.js"
   },
-  "_chunk-9b1c70a0.js": {
-    "file": "assets/chunks/chunk-9b1c70a0.js"
+  "_chunk-fd9ac6cb.js": {
+    "file": "assets/chunks/chunk-fd9ac6cb.js"
   },
   "node_modules/.pnpm/@fontsource+kadwa@4.5.11/node_modules/@fontsource/kadwa/files/kadwa-all-400-normal.woff": {
     "file": "assets/static/kadwa-all-400-normal.240aceaa.woff",
@@ -21,7 +21,7 @@
     "file": "assets/static/bootstrap-icons.5cd238ca.svg",
     "src": "node_modules/.pnpm/bootstrap-icons@1.10.5/node_modules/bootstrap-icons/bootstrap-icons.svg"
   },
-  "node_modules/.pnpm/vite-plugin-ssr@0.4.135_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.136_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/client-routing-runtime/entry.js": {
     "dynamicImports": [
       "pages/index/index.page.tsx",
       "pages/resume/index.page.tsx",
@@ -30,14 +30,14 @@
       "pages/resume/index.page.server.tsx?extractAssets&lang.tsx",
       "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.9ba6d239.js",
+    "file": "assets/entries/entry-client-routing.3b1bfc6e.js",
     "imports": [
-      "_chunk-9b1c70a0.js"
+      "_chunk-fd9ac6cb.js"
     ],
     "isEntry": true,
-    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.135_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.136_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/client-routing-runtime/entry.js"
   },
-  "node_modules/.pnpm/vite-plugin-ssr@0.4.135_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.136_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/server-routing-runtime/entry.js": {
     "dynamicImports": [
       "pages/index/index.page.tsx",
       "pages/resume/index.page.tsx",
@@ -46,12 +46,12 @@
       "pages/resume/index.page.server.tsx?extractAssets&lang.tsx",
       "renderer/_default.page.server.tsx?extractAssets&lang.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.d75dfbe4.js",
+    "file": "assets/entries/entry-server-routing.d225b8af.js",
     "imports": [
-      "_chunk-9b1c70a0.js"
+      "_chunk-fd9ac6cb.js"
     ],
     "isEntry": true,
-    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.135_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.136_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/server-routing-runtime/entry.js"
   },
   "pages/index/index.page.tsx": {
     "file": "assets/entries/pages_index_index.page.248bd857.js",
