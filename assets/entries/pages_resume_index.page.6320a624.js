@@ -1,4 +1,4 @@
-import{a as E,F as Yn,j as X,R as En,g as jn}from"../chunks/chunk-0cbd44a4.js";function Er({basicInfo:n}){return E(Yn,{children:X("header",{className:"grid grid-cols-1 grid-rows-3 items-center justify-between sm:grid-cols-6 sm:grid-rows-1 print:grid-cols-6 print:grid-rows-1",children:[E("div",{className:`order-3 mt-4 justify-self-center text-lg
+import{a as E,F as Yn,j as X,R as En,g as jn}from"../chunks/chunk-1a4eff8b.js";function Er({basicInfo:n}){return E(Yn,{children:X("header",{className:"grid grid-cols-1 grid-rows-3 items-center justify-between sm:grid-cols-6 sm:grid-rows-1 print:grid-cols-6 print:grid-rows-1",children:[E("div",{className:`order-3 mt-4 justify-self-center text-lg
         sm:order-none sm:col-start-1 sm:col-end-2 sm:mt-auto sm:justify-self-start sm:text-sm
         print:order-none print:col-start-1 print:col-end-2 print:mt-auto print:justify-self-start print:text-sm`,children:X(Fr,{children:[n.phone," ",E("br",{})," ",n.address]})}),E("div",{className:`order-2 mt-6 justify-self-center text-center
         sm:order-none sm:col-start-2 sm:col-end-6 sm:mt-auto
