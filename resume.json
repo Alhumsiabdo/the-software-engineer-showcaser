@@ -73,7 +73,7 @@
       },
       "i"
     ],
-    "phone": "+20 106 199 4948",
+    "phone": "+20 104 085 9078",
     "profiles": [
       {
         "icon": "envelope-at",
@@ -114,12 +114,54 @@
   ],
   "work": [
     {
-      "endDate": "PRESENT",
+      "endDate": "Present",
+      "highlights": [
+        "Worked on the EUA project (Laravel API) for a company, implementing authentication, integrating a third-party API, and developing features using the N-Tiers design pattern.",
+        "Contributed to [GROW CRM](https://growcrm.io/) by enhancing the task management system with workload tracking, task delegation, and issue resolution features."
+      ],
+      "keywords": [
+        {
+          "link": "https://www.php.net/",
+          "name": "Php"
+        },
+        {
+          "link": "https://laravel.com/",
+          "name": "Laravel"
+        },
+        {
+          "link": "https://getbootstrap.com/",
+          "name": "Bootstrap"
+        },
+        {
+          "link": "https://www.tutorialspoint.com/laravel/laravel_ajax.htm",
+          "name": "Ajax"
+        },
+        {
+          "link": "https://jquery.com/",
+          "name": "JQuery"
+        },
+        {
+          "link": "https://www.mysql.com/",
+          "name": "Mysql"
+        },
+        {
+          "link": "https://laravel.com/docs/10.x/eloquent-resources",
+          "name": "Laravel Api"
+        }
+      ],
+      "name": "DomeApp",
+      "position": "Backend ( Php Laravel Mid )",
+      "startDate": "Feb 2025",
+      "url": "https://domapphub.com/"
+    },
+    {
+      "endDate": "Feb 2025 ( 8 months )",
       "highlights": [
         "Worked on the [Paymac](https://paymac.net/) company website, fixing issues, improving the design, and ensuring responsiveness across devices.",
         "Contributed to the [Flove](https://flovegift.com/)Flove website and [App](https://play.google.com/store/apps/details?id=com.flovegift.flove_client&hl=en_US), a Saudi platform for buying gifts like flowers and chocolates, focusing on the product section and refactoring JavaScript for improved functionality.",
         "Worked on the [Refine](https://refine-care.com/) website and [App](https://play.google.com/store/apps/details?id=com.paymac.refine_app&hl=en_US), adding a dropdown for 'Analysis Type,' enabling bulk updates, categorizing orders by status, implementing automatic cancellation of unpaid orders, and integrating map-based location capture for lab branches.",
-        "Worked on the [Vitamingy](https://vitamingy.com/en) ERP system, enabling clients to manage multiple addresses and select or add an address when placing a sale order. The system was developed using Livewire."
+        "Worked on the [Vitamingy](https://vitamingy.com/en) ERP system, enabling clients to manage multiple addresses and select or add an address when placing a sale order. The system was developed using Livewire.",
+        "Developed a dashboard for reporting in the [Metapos](https://meta-pos.net/) POS system using Livewire, enabling real-time data tracking for internal branches."
       ],
       "keywords": [
         {
@@ -160,12 +202,12 @@
         }
       ],
       "name": "Paymac",
-      "position": "Software Engineer",
+      "position": "Backend ( Php Laravel )",
       "startDate": "Aug 2024",
       "url": "https://paymac.net/"
     },
     {
-      "endDate": "Aug 2024 ( 3 month )",
+      "endDate": "Aug 2024 ( 3 months )",
       "highlights": [
         "Developed the [I Pluto](https://ipluto.app/) exam management feature on the Student Stage Online platform, enabling teachers to create exams by selecting questions and answers. Integrated front-end designs with the backend and implemented pages for managing exam units and details.",
         "Contributed to the [Golden Host](https://goldenhost.co/) website and app, implementing features that prevent hosts from deleting apartments once rented and allowing users to rate apartments only once.",
@@ -202,7 +244,7 @@
         }
       ],
       "name": "Creative Minds",
-      "position": "Junior Software Engineer",
+      "position": "Junior Backend ( Php laravel )",
       "startDate": "May 2024",
       "url": "https://cems-it.com/"
     },
@@ -254,7 +296,7 @@
         }
       ],
       "name": "Top Business",
-      "position": "Fresh Software Engineer",
+      "position": "Fresh Backend ( Php Laravel )",
       "startDate": "Oct 2022",
       "url": "https://topbusiness.io/"
     }
