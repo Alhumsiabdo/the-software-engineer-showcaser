@@ -15,7 +15,7 @@ function EducationSection({ education }: EducationSectionProps) {
   // Get localized education data if available, otherwise use default
   const localizedEducation = getLocalizedContent('education') || education;
   
-  const subSections = localizedEducation.map((level, index) => {
+  const subSections = localizedEducation.map((level: Education, index: number) => {
     return (
       <div className="mb-2" key={`${index}-${currentLanguage}`}>
         <SectionTitle
