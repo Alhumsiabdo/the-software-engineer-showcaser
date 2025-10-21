@@ -6,6 +6,7 @@ import {
   getEducation,
   getSkills,
   getWork,
+  getLanguages,
 } from '#root/services/ContentLoader';
 import { ResumePageProps } from './index.page';
 
@@ -16,6 +17,7 @@ export function onBeforeRender() {
   const awards = getAwards(resumeJson);
   const education = getEducation(resumeJson);
   const additionalExperience = getAdditionalExperience(resumeJson);
+  const languages = getLanguages(resumeJson);
 
   const pageProps: ResumePageProps = {
     basicInfo,
@@ -24,6 +26,7 @@ export function onBeforeRender() {
     skills,
     education,
     additionalExperience,
+    languages,
   };
 
   return {
