@@ -12,9 +12,11 @@ import {
   Education,
   SkillContainer,
   Work,
+  Language,
 } from '#root/services/ContentLoader/types';
 import { AdditionalExperience } from './components/AdditionalExperience';
 import { SkillsSection } from './components/SkillsSection';
+import { LanguageSection, LanguageProvider } from './components/LanguageSection';
 export { Page };
 export { ShowcaseLayout as Layout } from '#root/layouts/ShowcaseLayout';
 export { SideTags as OutOfLayout } from './components/SideTags';
@@ -33,6 +35,7 @@ export type ResumePageProps = PageProps & {
   education: Education[];
   skills: SkillContainer[];
   additionalExperience: AdditionalExperienceType;
+  languages: Language[];
 };
 
 function Page({
@@ -42,19 +45,21 @@ function Page({
   awards,
   education,
   additionalExperience,
+  languages,
 }: ResumePageProps) {
   const { profiles, ...basicInfoNoProfiles } = basicInfo;
 
   return (
-    <>
+    <LanguageProvider languages={languages}>
       <base target="_blank"></base>
       <Header basicInfo={basicInfoNoProfiles} />
       <AddressBar links={profiles} />
+      <LanguageSection languages={languages} />
       <EmploymentSection work={work} />
       <EducationSection education={education} />
       <AwardsSection awards={awards} />
       <AdditionalExperience additionalExperience={additionalExperience} />
       <SkillsSection skills={skills} />
-    </>
+    </LanguageProvider>
   );
 }

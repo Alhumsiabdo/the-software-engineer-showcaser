@@ -19,14 +19,14 @@ a:not(.tag):hover {
 @screen md {
   html,
   body {
-    font-size: 8.3px;
+    font-size: 7.7px;
   }
 }
 
 @screen print {
   html,
   body {
-    font-size: 10.12px;
+    font-size: 7.7px;
   }
 }
 
