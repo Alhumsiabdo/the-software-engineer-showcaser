@@ -15,7 +15,7 @@ function SkillsSection({ skills }: SkillsProps) {
   // Get localized skills data if available, otherwise use default
   const localizedSkills = getLocalizedContent('skills') || skills;
   
-  const skillContainersList = localizedSkills.map((skillContainer, index) => {
+  const skillContainersList = localizedSkills.map((skillContainer: SkillContainer, index: number) => {
     return (
       <div key={`${index}-${currentLanguage}`} className="flex row items-center ml-2">
         <span>{skillContainer.name}: </span>
