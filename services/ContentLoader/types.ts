@@ -68,3 +68,11 @@ export interface Education {
 
 export type Awards = string[];
 export type AdditionalExperience = string[];
+
+export interface Language {
+  name: string;
+  level: string;
+  content: {
+    [key: string]: any;
+  };
+}

@@ -1,20 +1,27 @@
 import { BasicInfo, KernedLetter } from '#root/services/ContentLoader/types';
 import React from 'react';
+import { useLanguage } from './LanguageSection';
 
 export { Header };
 
 type HeaderProps = { basicInfo: Omit<BasicInfo, 'profiles'> };
 function Header({ basicInfo }: HeaderProps) {
+  const { getLocalizedContent, currentLanguage } = useLanguage();
+  
+  // Get localized basic info if available, otherwise use default
+  const localizedBasics = getLocalizedContent('basics');
+  const displayInfo = localizedBasics || basicInfo;
+  
   return (
     <>
-      <header className="grid grid-cols-1 grid-rows-3 items-center justify-between sm:grid-cols-6 sm:grid-rows-1 print:grid-cols-6 print:grid-rows-1">
+      <header className="grid grid-cols-1 grid-rows-3 items-center justify-between sm:grid-cols-6 sm:grid-rows-1 print:grid-cols-6 print:grid-rows-1" key={currentLanguage}>
         <div
           className="order-3 mt-4 justify-self-center text-lg
         sm:order-none sm:col-start-1 sm:col-end-2 sm:mt-auto sm:justify-self-start sm:text-sm
         print:order-none print:col-start-1 print:col-end-2 print:mt-auto print:justify-self-start print:text-sm"
         >
           <Address>
-            {basicInfo.phone} <br /> {basicInfo.address}
+            {displayInfo.phone} <br /> {displayInfo.address}
           </Address>
         </div>
         <div
@@ -23,7 +30,11 @@ function Header({ basicInfo }: HeaderProps) {
         print:order-none print:col-start-2 print:col-end-6 print:mt-auto"
         >
           <h1 className="title text-6xl tracking-tighter">
-            <NameKerned kernedLetters={basicInfo.nameKerned} />
+            {localizedBasics && localizedBasics.name ? (
+              <span>{localizedBasics.name}</span>
+            ) : (
+              <NameKerned kernedLetters={basicInfo.nameKerned} />
+            )}
           </h1>
         </div>
 
