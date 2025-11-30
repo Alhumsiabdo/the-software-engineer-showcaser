@@ -1,4 +1,5 @@
 export { render };
+export { prerender };
 export const passToClient = ['pageProps', 'urlPathname', 'locale'];
 
 import ReactDOMServer from 'react-dom/server';
@@ -10,6 +11,16 @@ import { DefaultLayout } from '#root/layouts/DefaultLayout';
 import { EmptyLayout } from '#root/layouts/EmptyLayout';
 
 const WEBSITE_LINK = 'https://arabi.alhumsi.me/resume';
+
+function prerender() {
+  return [
+    '/',
+    '/en',
+    '/de',
+    '/en/resume',
+    '/de/resume',
+  ];
+}
 
 
 
