@@ -1,0 +1,54 @@
+
+> build
+> tsc --noEmit && vite build
+
+vite v4.4.4 building for production...
+transforming...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+✓ 351 modules transformed.
+rendering chunks...
+computing gzip size...
+vite v4.4.4 building SSR bundle for production...
+transforming...
+dist/client/vite-plugin-ssr.json                                          0.16 kB │ gzip:   0.14 kB
+dist/client/manifest.json                                                 3.32 kB │ gzip:   0.59 kB
+dist/client/assets/static/kadwa-latin-400-normal.54ccb99c.woff2          19.20 kB
+dist/client/assets/static/kadwa-devanagari-400-normal.563f1394.woff2     38.19 kB
+dist/client/assets/static/kadwa-all-400-normal.240aceaa.woff             82.94 kB
+dist/client/assets/static/bootstrap-icons.5cd238ca.svg                1,087.20 kB │ gzip: 216.67 kB
+dist/client/assets/static/default.page.client.089e2110.css               14.79 kB │ gzip:   3.75 kB
+dist/client/assets/pages/index/index.page.a9d8651e.js                     0.15 kB │ gzip:   0.15 kB
+dist/client/assets/renderer/error.page.bb92df7b.js                        0.32 kB │ gzip:   0.23 kB
+dist/client/assets/entry-server-routing.ba30ac60.js                       2.44 kB │ gzip:   1.13 kB
+dist/client/assets/chunks/ad3e06ed.js                                     7.77 kB │ gzip:   2.89 kB
+dist/client/assets/chunks/be6e2be8.js                                    27.67 kB │ gzip:   9.72 kB
+dist/client/assets/entry-client-routing.254d2165.js                      35.46 kB │ gzip:  11.60 kB
+dist/client/assets/pages/resume/index.page.f5d6b47b.js                  119.86 kB │ gzip:  37.58 kB
+dist/client/assets/renderer/default.page.client.b4377a5f.js             148.11 kB │ gzip:  48.04 kB
+✓ 46 modules transformed.
+rendering chunks...
+dist/server/package.json                        0.02 kB
+dist/server/importBuild.cjs                     0.35 kB
+dist/server/chunks/ac9dafa4.js                  0.20 kB
+dist/server/importBuild.mjs                     0.23 kB
+dist/server/pages/index/index-page.js           0.28 kB
+dist/server/renderer/error-page.js              0.61 kB
+dist/server/pageFiles.mjs                       3.91 kB
+dist/server/renderer/default-page-server.js     5.40 kB
+dist/server/pages/resume/index-page.js         14.35 kB
+dist/server/pages/resume/index-page-server.js  48.13 kB
+✓ built in 338ms
+vite-plugin-ssr v0.4.110 pre-rendering HTML...
+TypeError: Cannot read properties of undefined (reading 'map')
+    at NameKerned (file:///home/abdullah/projects/the-software-engineer-showcaser/dist/server/pages/resume/index-page.js:50:31)
+    at Fb (/home/abdullah/projects/the-software-engineer-showcaser/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js:65:44)
+    at Ib (/home/abdullah/projects/the-software-engineer-showcaser/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js:67:254)
+    at W (/home/abdullah/projects/the-software-engineer-showcaser/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js:73:89)
+    at Jb (/home/abdullah/projects/the-software-engineer-showcaser/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js:76:98)
+    at Ib (/home/abdullah/projects/the-software-engineer-showcaser/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js:68:145)
+    at W (/home/abdullah/projects/the-software-engineer-showcaser/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js:73:89)
+    at Jb (/home/abdullah/projects/the-software-engineer-showcaser/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js:76:98)
+    at Ib (/home/abdullah/projects/the-software-engineer-showcaser/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js:68:145)
+    at W (/home/abdullah/projects/the-software-engineer-showcaser/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js:73:89)
