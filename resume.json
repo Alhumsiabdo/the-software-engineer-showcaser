@@ -6,7 +6,8 @@
     " **I created a Telegram bot for the restaurant**: It helped customers find prices and branch locations, saving them time and hassle. Proud of this innovation and eager for more challenges ahead."
   ],
   "additionalExperience": [
-    "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: An open source resume application I used for this resume. I contributed by adding a skills section functionality. "
+    "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: An open source resume application I used for this resume. I contributed by adding a skills section functionality. ",
+    "**[Laravel Error Notifier](https://github.com/Alhumsiabdo/laravel-error-notifier)**: A Laravel package that sends error notifications to various channels like Slack, Telegram, and Discord. I built this package to help developers monitor their applications."
   ],
   "basics": {
     "address": "Cairo, Egypt",
@@ -648,7 +649,8 @@
             " **I created a Telegram bot for the restaurant**: It helped customers find prices and branch locations, saving them time and hassle. Proud of this innovation and eager for more challenges ahead."
           ],
           "additionalExperience": [
-            "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: An open source resume application I used for this resume. I contributed by adding a skills section functionality. "
+            "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: An open source resume application I used for this resume. I contributed by adding a skills section functionality. ",
+            "**[Laravel Error Notifier](https://github.com/Alhumsiabdo/laravel-error-notifier)**: A Laravel package that sends error notifications to various channels like Slack, Telegram, and Discord. I built this package to help developers monitor their applications."
           ],
           "skills": [
             {
@@ -996,7 +998,8 @@
             "**Telegram-Bot für Restaurant**: Ich erstellte einen Telegram-Bot für das Restaurant, der Kunden half, Preise und Filialstandorte zu finden und ihnen Zeit und Ärger ersparte. Ich bin stolz auf diese Innovation und freue mich auf weitere Herausforderungen."
           ],
           "additionalExperience": [
-            "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: Eine Open-Source-Lebenslauf-Anwendung, die ich für diesen Lebenslauf verwendet habe. Ich trug bei, indem ich eine Funktionalität für den Fähigkeiten-Bereich hinzufügte."
+            "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: Eine Open-Source-Lebenslauf-Anwendung, die ich für diesen Lebenslauf verwendet habe. Ich trug bei, indem ich eine Funktionalität für den Fähigkeiten-Bereich hinzufügte.",
+            "**[Laravel Error Notifier](https://github.com/Alhumsiabdo/laravel-error-notifier)**: Ein Laravel-Paket, das Fehlerbenachrichtigungen an verschiedene Kanäle wie Slack, Telegram und Discord sendet. Ich habe dieses Paket entwickelt, um Entwicklern bei der Überwachung ihrer Anwendungen zu helfen."
           ],
           "skills": [
             {
@@ -1111,9 +1114,37 @@
                 }
               ]
             }
+          ],
+          "spokenLanguages": [
+            {
+              "language": "Arabisch",
+              "fluency": "Muttersprache"
+            },
+            {
+              "language": "Englisch",
+              "fluency": "Professionell"
+            },
+            {
+              "language": "Deutsch",
+              "fluency": "Mittelstufe"
+            }
           ]
         }
       }
+    }
+  ],
+  "spokenLanguages": [
+    {
+      "language": "Arabic",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
     }
   ]
 }

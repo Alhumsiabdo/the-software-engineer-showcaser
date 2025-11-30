@@ -6,6 +6,7 @@ import {
   SkillContainer,
   Work,
   Language,
+  SpokenLanguage,
 } from './types';
 
 const makeMissingFieldErrorMessage = (field: string) =>
@@ -109,4 +110,18 @@ export function getLanguages(resumeData: unknown): Language[] {
   }
 
   return resumeData[field] as Language[];
+}
+
+export function getSpokenLanguages(resumeData: unknown): SpokenLanguage[] {
+  const field = 'spokenLanguages';
+
+  if (
+    resumeData === null ||
+    typeof resumeData !== 'object' ||
+    !(field in resumeData)
+  ) {
+    throw new Error(makeMissingFieldErrorMessage(field));
+  }
+
+  return resumeData[field] as SpokenLanguage[];
 }

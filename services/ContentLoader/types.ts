@@ -12,9 +12,9 @@ interface Keyword {
 export type KernedLetter =
   | string
   | {
-      character: string;
-      letterSpacing: string;
-    };
+    character: string;
+    letterSpacing: string;
+  };
 
 export interface Work {
   name: string;
@@ -68,6 +68,11 @@ export interface Education {
 
 export type Awards = string[];
 export type AdditionalExperience = string[];
+
+export interface SpokenLanguage {
+  language: string;
+  fluency: string;
+}
 
 export interface Language {
   name: string;
