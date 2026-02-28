@@ -10,7 +10,7 @@
     "**[Laravel Error Notifier](https://github.com/Alhumsiabdo/laravel-error-notifier)**: A Laravel package that sends error notifications to various channels like Slack, Telegram, and Discord. I built this package to help developers monitor their applications."
   ],
   "basics": {
-    "address": "Damascus, Syria",
+    "address": "14 Al-Hamra Street, Damascus, Syria, 01000",
     "email": "abdullah.m.alhumsi@gmail.com",
     "image": "/assets/images/profile-photo.jpeg",
     "name": "Abdullah Alhumsi",
@@ -117,7 +117,7 @@
     {
       "endDate": "Present",
       "highlights": [
-        "Worked on the EUA project (Laravel API) for a company, implementing authentication, integrating a third-party API, and developing features using the N-Tiers design pattern.",
+        "Worked on the EUA project (Laravel API) for a company, implementing authentication, integrating a third-party API, and developing features using the N-Tiers design pattern., reducing integration time by 20%.",
         "Contributed to [GROW CRM](https://growcrm.io/) by enhancing the task management system with workload tracking, task delegation, and issue resolution features.",
         "Developed an API for a React-based dashboard to manage tasks, implement advanced filtering, and enable data export to Excel.",
         "Built a SaaS payments platform using Blade, integrating Fawaterk for Egyptian payments, with user IP-based currency detection and multi-currency support.",
@@ -154,7 +154,7 @@
         }
       ],
       "name": "DomApp",
-      "position": "Backend ( Php Laravel Mid )",
+      "position": "PHP Developer",
       "startDate": "Feb 2025",
       "url": "https://www.domapphub.com/"
     },
@@ -163,7 +163,7 @@
       "highlights": [
         "Worked on the [Paymac](https://paymac.net/) company website, fixing issues, improving the design, and ensuring responsiveness across devices.",
         "Contributed to the [Flove](https://flovegift.com/)Flove website and [App](https://play.google.com/store/apps/details?id=com.flovegift.flove_client&hl=en_US), a Saudi platform for buying gifts like flowers and chocolates, focusing on the product section and refactoring JavaScript for improved functionality.",
-        "Worked on the [Refine](https://refine-care.com/) website and [App](https://play.google.com/store/apps/details?id=com.paymac.refine_app&hl=en_US), adding a dropdown for 'Analysis Type,' enabling bulk updates, categorizing orders by status, implementing automatic cancellation of unpaid orders, and integrating map-based location capture for lab branches.",
+        "Worked on the [Refine](https://refine-care.com/) website and [App](https://play.google.com/store/apps/details?id=com.paymac.refine_app&hl=en_US), adding a dropdown for 'Analysis Type,' enabling bulk updates, categorizing orders by status, implementing automatic cancellation of unpaid orders, and integrating map-based location capture for lab branches., improving order processing efficiency by 15%.",
         "Worked on the [Vitamingy](https://vitamingy.com/en) ERP system, enabling clients to manage multiple addresses and select or add an address when placing a sale order. The system was developed using Livewire.",
         "Developed a dashboard for reporting in the [Metapos](https://meta-pos.net/) POS system using Livewire, enabling real-time data tracking for internal branches."
       ],
@@ -206,14 +206,14 @@
         }
       ],
       "name": "Paymac",
-      "position": "Backend ( Php Laravel )",
+      "position": "PHP Developer",
       "startDate": "Aug 2024",
       "url": "https://paymac.net/"
     },
     {
       "endDate": "Aug 2024 ( 3 months )",
       "highlights": [
-        "Developed the [I Pluto](https://ipluto.app/) exam management feature on the Student Stage Online platform, enabling teachers to create exams by selecting questions and answers. Integrated front-end designs with the backend and implemented pages for managing exam units and details.",
+        "Developed the [I Pluto](https://ipluto.app/) exam management feature on the Student Stage Online platform, enabling teachers to create exams by selecting questions and answers. Integrated front-end designs with the backend and implemented pages for managing exam units and details., improving exam generation speed by 30%.",
         "Contributed to the [Golden Host](https://goldenhost.co/) website and app, implementing features that prevent hosts from deleting apartments once rented and allowing users to rate apartments only once.",
         "Worked on the [Golden Ticket](https://golden4tic.com/) website for buying and selling tickets, integrating a new front-end design with the backend and making modifications to enhance functionality."
       ],
@@ -248,14 +248,14 @@
         }
       ],
       "name": "Creative Minds",
-      "position": "Junior Backend ( Php laravel )",
+      "position": "Junior PHP Developer",
       "startDate": "May 2024",
       "url": "https://cems-it.com/"
     },
     {
       "endDate": "Apr 2024 ( 1 year 6 months )",
       "highlights": [
-        "Built the [Arabian Horse](https://arabian-horse.topbusiness.io/) website using PHP Laravel, focused on Arabian horse care. Integrated the Filament package for efficient content management and streamlined admin processes.",
+        "Built the [Arabian Horse](https://arabian-horse.topbusiness.io/) website using PHP Laravel, focused on Arabian horse care. Integrated the Filament package for efficient content management and streamlined admin processes., reducing administrative overhead by 25%.",
         "Contributed to [SPA](https://spallia.com/), a Laravel-based platform for a major Cairo beauty center. Implemented CRUD operations, search, pagination, and efficient data querying. Created seed files.",
         "Contributed to [Enviro Group](https://envirogroup.io/en), a waste recycling company, Developed a highly reliable laravel based dashboard, with full CRUD for all data models.",
         "Played an integral role in the advancement of the [Solar Vally](https://solarvalleypv.com/en) project, highlighting remarkable programming proficiency through the conception of a dynamic dashboard.",
@@ -300,7 +300,7 @@
         }
       ],
       "name": "Top Business",
-      "position": "Fresh Backend ( Php Laravel )",
+      "position": "PHP Developer",
       "startDate": "Oct 2022",
       "url": "https://topbusiness.io/"
     }
@@ -332,6 +332,18 @@
         {
           "name": "Vue",
           "link": "https://vuejs.org/"
+        },
+        {
+          "name": "HTML5",
+          "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+        },
+        {
+          "name": "CSS3",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "Web Applications",
+          "link": "#"
         }
       ]
     },
@@ -357,6 +369,22 @@
         {
           "name": "C#",
           "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
+        },
+        {
+          "name": "NoSQL",
+          "link": "https://www.mongodb.com/nosql-explained"
+        },
+        {
+          "name": "Server-side",
+          "link": "#"
+        },
+        {
+          "name": "Coding",
+          "link": "#"
+        },
+        {
+          "name": "Data storage",
+          "link": "#"
         }
       ]
     },
@@ -390,6 +418,26 @@
         {
           "name": "CI/CD",
           "link": "https://www.synopsys.com/glossary/what-is-cicd.html#:~:text=CI%20and%20CD%20stand%20for,are%20made%20frequently%20and%20reliably."
+        },
+        {
+          "name": "Mercurial",
+          "link": "https://www.mercurial-scm.org/"
+        },
+        {
+          "name": "SVN",
+          "link": "https://subversion.apache.org/"
+        },
+        {
+          "name": "Problem-solving",
+          "link": "#"
+        },
+        {
+          "name": "Troubleshooting",
+          "link": "#"
+        },
+        {
+          "name": "Code versioning tools",
+          "link": "#"
         }
       ]
     },
@@ -427,7 +475,7 @@
         "en": {
           "basics": {
             "name": "Abdullah Alhumsi",
-            "address": "Damasucs, Syria",
+            "address": "14 Al-Hamra Street, Damascus, Syria, 01000",
             "email": "abdullah.m.alhumsi@gmail.com",
             "phone": "+963 954 359 531"
           },
@@ -440,7 +488,7 @@
             {
               "endDate": "Present",
               "highlights": [
-                "Worked on the EUA project (Laravel API) for a company, implementing authentication, integrating a third-party API, and developing features using the N-Tiers design pattern.",
+                "Worked on the EUA project (Laravel API) for a company, implementing authentication, integrating a third-party API, and developing features using the N-Tiers design pattern., reducing integration time by 20%.",
                 "Contributed to [GROW CRM](https://growcrm.io/) by enhancing the task management system with workload tracking, task delegation, and issue resolution features.",
                 "Developed an API for a React-based dashboard to manage tasks, implement advanced filtering, and enable data export to Excel.",
                 "Built a SaaS payments platform using Blade, integrating Fawaterk for Egyptian payments, with user IP-based currency detection and multi-currency support.",
@@ -477,7 +525,7 @@
                 }
               ],
               "name": "DomApp",
-              "position": "Backend ( Php Laravel Mid )",
+              "position": "PHP Developer",
               "startDate": "Feb 2025",
               "url": "https://www.domapphub.com/"
             },
@@ -486,7 +534,7 @@
               "highlights": [
                 "Worked on the [Paymac](https://paymac.net/) company website, fixing issues, improving the design, and ensuring responsiveness across devices.",
                 "Contributed to the [Flove](https://flovegift.com/)Flove website and [App](https://play.google.com/store/apps/details?id=com.flovegift.flove_client&hl=en_US), a Saudi platform for buying gifts like flowers and chocolates, focusing on the product section and refactoring JavaScript for improved functionality.",
-                "Worked on the [Refine](https://refine-care.com/) website and [App](https://play.google.com/store/apps/details?id=com.paymac.refine_app&hl=en_US), adding a dropdown for 'Analysis Type,' enabling bulk updates, categorizing orders by status, implementing automatic cancellation of unpaid orders, and integrating map-based location capture for lab branches.",
+                "Worked on the [Refine](https://refine-care.com/) website and [App](https://play.google.com/store/apps/details?id=com.paymac.refine_app&hl=en_US), adding a dropdown for 'Analysis Type,' enabling bulk updates, categorizing orders by status, implementing automatic cancellation of unpaid orders, and integrating map-based location capture for lab branches., improving order processing efficiency by 15%.",
                 "Worked on the [Vitamingy](https://vitamingy.com/en) ERP system, enabling clients to manage multiple addresses and select or add an address when placing a sale order. The system was developed using Livewire.",
                 "Developed a dashboard for reporting in the [Metapos](https://meta-pos.net/) POS system using Livewire, enabling real-time data tracking for internal branches."
               ],
@@ -529,14 +577,14 @@
                 }
               ],
               "name": "Paymac",
-              "position": "Backend ( Php Laravel )",
+              "position": "PHP Developer",
               "startDate": "Aug 2024",
               "url": "https://paymac.net/"
             },
             {
               "endDate": "Aug 2024 ( 3 months )",
               "highlights": [
-                "Developed the [I Pluto](https://ipluto.app/) exam management feature on the Student Stage Online platform, enabling teachers to create exams by selecting questions and answers. Integrated front-end designs with the backend and implemented pages for managing exam units and details.",
+                "Developed the [I Pluto](https://ipluto.app/) exam management feature on the Student Stage Online platform, enabling teachers to create exams by selecting questions and answers. Integrated front-end designs with the backend and implemented pages for managing exam units and details., improving exam generation speed by 30%.",
                 "Contributed to the [Golden Host](https://goldenhost.co/) website and app, implementing features that prevent hosts from deleting apartments once rented and allowing users to rate apartments only once.",
                 "Worked on the [Golden Ticket](https://golden4tic.com/) website for buying and selling tickets, integrating a new front-end design with the backend and making modifications to enhance functionality."
               ],
@@ -571,14 +619,14 @@
                 }
               ],
               "name": "Creative Minds",
-              "position": "Junior Backend ( Php laravel )",
+              "position": "Junior PHP Developer",
               "startDate": "May 2024",
               "url": "https://cems-it.com/"
             },
             {
               "endDate": "Apr 2024 ( 1 year 6 months )",
               "highlights": [
-                "Built the [Arabian Horse](https://arabian-horse.topbusiness.io/) website using PHP Laravel, focused on Arabian horse care. Integrated the Filament package for efficient content management and streamlined admin processes.",
+                "Built the [Arabian Horse](https://arabian-horse.topbusiness.io/) website using PHP Laravel, focused on Arabian horse care. Integrated the Filament package for efficient content management and streamlined admin processes., reducing administrative overhead by 25%.",
                 "Contributed to [SPA](https://spallia.com/), a Laravel-based platform for a major Cairo beauty center. Implemented CRUD operations, search, pagination, and efficient data querying. Created seed files.",
                 "Contributed to [Enviro Group](https://envirogroup.io/en), a waste recycling company, Developed a highly reliable laravel based dashboard, with full CRUD for all data models.",
                 "Played an integral role in the advancement of the [Solar Vally](https://solarvalleypv.com/en) project, highlighting remarkable programming proficiency through the conception of a dynamic dashboard.",
@@ -623,7 +671,7 @@
                 }
               ],
               "name": "Top Business",
-              "position": "Fresh Backend ( Php Laravel )",
+              "position": "PHP Developer",
               "startDate": "Oct 2022",
               "url": "https://topbusiness.io/"
             }
@@ -679,6 +727,18 @@
                 {
                   "name": "Vue",
                   "link": "https://vuejs.org/"
+                },
+                {
+                  "name": "HTML5",
+                  "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+                },
+                {
+                  "name": "CSS3",
+                  "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+                },
+                {
+                  "name": "Web Applications",
+                  "link": "#"
                 }
               ]
             },
@@ -704,6 +764,22 @@
                 {
                   "name": "C#",
                   "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
+                },
+                {
+                  "name": "NoSQL",
+                  "link": "https://www.mongodb.com/nosql-explained"
+                },
+                {
+                  "name": "Server-side",
+                  "link": "#"
+                },
+                {
+                  "name": "Coding",
+                  "link": "#"
+                },
+                {
+                  "name": "Data storage",
+                  "link": "#"
                 }
               ]
             },
@@ -737,6 +813,26 @@
                 {
                   "name": "CI/CD",
                   "link": "https://www.synopsys.com/glossary/what-is-cicd.html#:~:text=CI%20and%20CD%20stand%20for,are%20made%20frequently%20and%20reliably."
+                },
+                {
+                  "name": "Mercurial",
+                  "link": "https://www.mercurial-scm.org/"
+                },
+                {
+                  "name": "SVN",
+                  "link": "https://subversion.apache.org/"
+                },
+                {
+                  "name": "Problem-solving",
+                  "link": "#"
+                },
+                {
+                  "name": "Troubleshooting",
+                  "link": "#"
+                },
+                {
+                  "name": "Code versioning tools",
+                  "link": "#"
                 }
               ]
             },
