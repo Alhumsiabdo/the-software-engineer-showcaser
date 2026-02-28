@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header } from './components/Header';
+import { SummarySection } from './components/SummarySection';
 import { AddressBar } from './components/AddressBar';
 import { EmploymentSection } from './components/EmploymentSection';
 import { AwardsSection } from './components/AwardsSection';
@@ -57,6 +58,7 @@ function Page({
       <base target="_blank"></base>
       <Header basicInfo={basicInfoNoProfiles} />
       <AddressBar links={profiles} />
+      <SummarySection basicInfo={basicInfoNoProfiles} />
       <SpokenLanguagesSection languages={spokenLanguages} />
       <EmploymentSection work={work} />
       <EducationSection education={education} />

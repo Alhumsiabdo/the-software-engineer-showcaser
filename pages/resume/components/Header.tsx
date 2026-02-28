@@ -7,11 +7,11 @@ export { Header };
 type HeaderProps = { basicInfo: Omit<BasicInfo, 'profiles'> };
 function Header({ basicInfo }: HeaderProps) {
   const { getLocalizedContent, currentLanguage } = useLanguage();
-  
+
   // Get localized basic info if available, otherwise use default
   const localizedBasics = getLocalizedContent('basics');
   const displayInfo = localizedBasics || basicInfo;
-  
+
   return (
     <>
       <header className="grid grid-cols-1 grid-rows-3 items-center justify-between sm:grid-cols-6 sm:grid-rows-1 print:grid-cols-6 print:grid-rows-1" key={currentLanguage}>
@@ -21,7 +21,7 @@ function Header({ basicInfo }: HeaderProps) {
         print:order-none print:col-start-1 print:col-end-2 print:mt-auto print:justify-self-start print:text-sm"
         >
           <Address>
-            {displayInfo.phone} <br /> {displayInfo.address}
+            Phone: {displayInfo.phone} <br /> Address: {displayInfo.address}
           </Address>
         </div>
         <div

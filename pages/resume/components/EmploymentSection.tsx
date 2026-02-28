@@ -12,10 +12,10 @@ export { EmploymentSection };
 type EmploymentSectionProps = { work: Work[] };
 function EmploymentSection({ work }: EmploymentSectionProps) {
   const { getLocalizedContent, currentLanguage } = useLanguage();
-  
+
   // Get localized work data if available, otherwise use default
   const localizedWork = getLocalizedContent('work') || work;
-  
+
   const subSections = localizedWork.map((job: Work, index: number) => {
     return (
       <div className="mb-2" key={`${index}-${currentLanguage}`}>
@@ -36,7 +36,7 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
   });
 
   return (
-    <LocalizedSection titleKey="workTitle" defaultTitle="Employment">
+    <LocalizedSection titleKey="workTitle" defaultTitle="Professional Experience">
       {subSections}
     </LocalizedSection>
   );

@@ -10,7 +10,7 @@
     "**[Laravel Error Notifier](https://github.com/Alhumsiabdo/laravel-error-notifier)**: A Laravel package that sends error notifications to various channels like Slack, Telegram, and Discord. I built this package to help developers monitor their applications."
   ],
   "basics": {
-    "address": "14 Al-Hamra Street, Damascus, Syria, 01000",
+    "address": "14 Al-Hamra Street, Damascus, Syria",
     "email": "abdullah.m.alhumsi@gmail.com",
     "image": "/assets/images/profile-photo.jpeg",
     "name": "Abdullah Alhumsi",
@@ -97,7 +97,8 @@
         "username": "abdullahalhumsi"
       }
     ],
-    "url": "https://abdullah.alhumsi.me"
+    "url": "https://abdullah.alhumsi.me",
+    "summary": "Mid-level Software Engineer specializing in the PHP and Laravel ecosystem with 2+ years of professional experience. Proven expertise in architecting robust RESTful APIs, designing scalable Web Applications using the N-Tiers pattern, and successfully delivering multi-tenant applications, CRM platforms, and payment integrations. Strong background in back-end development, optimizing database performance, and ensuring seamless front-end integration using Vue.js and Livewire. Highly proactive team player with excellent problem-solving skills and a focus on writing high-quality, maintainable code."
   },
   "education": [
     {
@@ -154,7 +155,7 @@
         }
       ],
       "name": "DomApp",
-      "position": "PHP Developer",
+      "position": "Software Engineer (PHP/Laravel)",
       "startDate": "Feb 2025",
       "url": "https://www.domapphub.com/"
     },
@@ -307,162 +308,163 @@
   ],
   "skills": [
     {
-      "name": "Front-End",
-      "skills": [
-        {
-          "name": "HTML",
-          "link": "https://www.w3schools.com/html/"
-        },
-        {
-          "name": "CSS",
-          "link": "https://www.w3schools.com/css/"
-        },
-        {
-          "name": "Bootstrap",
-          "link": "https://getbootstrap.com/"
-        },
-        {
-          "name": "JS",
-          "link": "https://www.w3schools.com/js/"
-        },
-        {
-          "name": "Ajax",
-          "link": "https://www.w3schools.com/js/js_ajax_intro.asp"
-        },
-        {
-          "name": "Vue",
-          "link": "https://vuejs.org/"
-        },
-        {
-          "name": "HTML5",
-          "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-        },
-        {
-          "name": "CSS3",
-          "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-        },
-        {
-          "name": "Web Applications",
-          "link": "#"
-        }
-      ]
-    },
-    {
-      "name": "Back-End",
+      "name": "Programming Languages",
       "skills": [
         {
           "name": "PHP",
           "link": "https://www.php.net/"
         },
         {
-          "name": "Laravel",
-          "link": "https://laravel.com/"
+          "name": "JavaScript",
+          "link": "https://www.javascript.com/"
         },
         {
           "name": "Python",
           "link": "https://www.python.org/"
         },
         {
-          "name": "Django",
-          "link": "https://www.djangoproject.com/"
-        },
-        {
           "name": "C#",
-          "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
-        },
-        {
-          "name": "NoSQL",
-          "link": "https://www.mongodb.com/nosql-explained"
-        },
-        {
-          "name": "Server-side",
-          "link": "#"
-        },
-        {
-          "name": "Coding",
-          "link": "#"
-        },
-        {
-          "name": "Data storage",
-          "link": "#"
+          "link": ""
         }
       ]
     },
     {
-      "name": "DevOps",
+      "name": "Frameworks & Libraries",
       "skills": [
+        {
+          "name": "Laravel",
+          "link": "https://laravel.com/"
+        },
+        {
+          "name": "Vue.js",
+          "link": "https://vuejs.org/"
+        },
+        {
+          "name": "Livewire",
+          "link": "https://livewire.laravel.com/"
+        },
+        {
+          "name": "Alpine.js",
+          "link": "https://alpinejs.dev/"
+        },
+        {
+          "name": "Bootstrap",
+          "link": "https://getbootstrap.com/"
+        },
+        {
+          "name": "jQuery",
+          "link": "https://jquery.com/"
+        }
+      ]
+    },
+    {
+      "name": "Databases & Architecture",
+      "skills": [
+        {
+          "name": "MySQL",
+          "link": "https://www.mysql.com/"
+        },
+        {
+          "name": "Relational Database",
+          "link": ""
+        },
+        {
+          "name": "Database applications",
+          "link": ""
+        },
+        {
+          "name": "NoSQL",
+          "link": ""
+        },
+        {
+          "name": "RESTful APIs",
+          "link": ""
+        },
+        {
+          "name": "MVC",
+          "link": ""
+        },
+        {
+          "name": "N-Tiers Pattern",
+          "link": ""
+        },
+        {
+          "name": "SOLID Principles",
+          "link": ""
+        },
+        {
+          "name": "OOP",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "skills": [
+        {
+          "name": "Version control",
+          "link": ""
+        },
         {
           "name": "Git",
           "link": "https://git-scm.com/"
         },
         {
-          "name": "Github",
+          "name": "GitHub",
           "link": "https://github.com/"
-        },
-        {
-          "name": "Gitlab",
-          "link": "https://about.gitlab.com/"
         },
         {
           "name": "Docker",
           "link": "https://www.docker.com/"
         },
         {
-          "name": "Nginx",
-          "link": "https://www.nginx.com/"
-        },
-        {
-          "name": "Linux",
-          "link": "https://www.linux.org/"
-        },
-        {
           "name": "CI/CD",
-          "link": "https://www.synopsys.com/glossary/what-is-cicd.html#:~:text=CI%20and%20CD%20stand%20for,are%20made%20frequently%20and%20reliably."
+          "link": ""
         },
         {
-          "name": "Mercurial",
-          "link": "https://www.mercurial-scm.org/"
+          "name": "Laravel Forge",
+          "link": "https://forge.laravel.com/"
         },
         {
-          "name": "SVN",
-          "link": "https://subversion.apache.org/"
+          "name": "Nginx",
+          "link": ""
         },
         {
-          "name": "Problem-solving",
-          "link": "#"
-        },
-        {
-          "name": "Troubleshooting",
-          "link": "#"
-        },
-        {
-          "name": "Code versioning tools",
-          "link": "#"
+          "name": "GitLab",
+          "link": "https://about.gitlab.com/"
         }
       ]
     },
     {
-      "name": "Ecosystem",
+      "name": "Core Competencies",
       "skills": [
         {
-          "name": "Breeze",
-          "link": "https://laravel.com/docs/10.x/starter-kits#laravel-breeze"
+          "name": "Back-end Development",
+          "link": ""
         },
         {
-          "name": "Inertia",
-          "link": "https://inertiajs.com/"
+          "name": "API Design",
+          "link": ""
         },
         {
-          "name": "LIveWire",
-          "link": "https://livewire.laravel.com/"
+          "name": "Front-end Integration",
+          "link": ""
         },
         {
-          "name": "Forge",
-          "link": "https://forge.laravel.com/"
+          "name": "Web Applications",
+          "link": ""
         },
         {
-          "name": "Alpinejs",
-          "link": "https://alpinejs.dev/"
+          "name": "Problem-solving",
+          "link": ""
+        },
+        {
+          "name": "Troubleshooting",
+          "link": ""
+        },
+        {
+          "name": "Optimization",
+          "link": ""
         }
       ]
     }
@@ -475,9 +477,10 @@
         "en": {
           "basics": {
             "name": "Abdullah Alhumsi",
-            "address": "14 Al-Hamra Street, Damascus, Syria, 01000",
+            "address": "14 Al-Hamra Street, Damascus, Syria",
             "email": "abdullah.m.alhumsi@gmail.com",
-            "phone": "+963 954 359 531"
+            "phone": "+963 954 359 531",
+            "summary": "Mid-level Software Engineer specializing in the PHP and Laravel ecosystem with 2+ years of professional experience. Proven expertise in architecting robust RESTful APIs, designing scalable Web Applications using the N-Tiers pattern, and successfully delivering multi-tenant applications, CRM platforms, and payment integrations. Strong background in back-end development, optimizing database performance, and ensuring seamless front-end integration using Vue.js and Livewire. Highly proactive team player with excellent problem-solving skills and a focus on writing high-quality, maintainable code."
           },
           "workTitle": "Work Experience",
           "educationTitle": "Education",
@@ -525,7 +528,7 @@
                 }
               ],
               "name": "DomApp",
-              "position": "PHP Developer",
+              "position": "Software Engineer (PHP/Laravel)",
               "startDate": "Feb 2025",
               "url": "https://www.domapphub.com/"
             },
@@ -702,162 +705,163 @@
           ],
           "skills": [
             {
-              "name": "Front-End",
-              "skills": [
-                {
-                  "name": "HTML",
-                  "link": "https://www.w3schools.com/html/"
-                },
-                {
-                  "name": "CSS",
-                  "link": "https://www.w3schools.com/css/"
-                },
-                {
-                  "name": "Bootstrap",
-                  "link": "https://getbootstrap.com/"
-                },
-                {
-                  "name": "JS",
-                  "link": "https://www.w3schools.com/js/"
-                },
-                {
-                  "name": "Ajax",
-                  "link": "https://www.w3schools.com/js/js_ajax_intro.asp"
-                },
-                {
-                  "name": "Vue",
-                  "link": "https://vuejs.org/"
-                },
-                {
-                  "name": "HTML5",
-                  "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-                },
-                {
-                  "name": "CSS3",
-                  "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-                },
-                {
-                  "name": "Web Applications",
-                  "link": "#"
-                }
-              ]
-            },
-            {
-              "name": "Back-End",
+              "name": "Programming Languages",
               "skills": [
                 {
                   "name": "PHP",
                   "link": "https://www.php.net/"
                 },
                 {
-                  "name": "Laravel",
-                  "link": "https://laravel.com/"
+                  "name": "JavaScript",
+                  "link": "https://www.javascript.com/"
                 },
                 {
                   "name": "Python",
                   "link": "https://www.python.org/"
                 },
                 {
-                  "name": "Django",
-                  "link": "https://www.djangoproject.com/"
-                },
-                {
                   "name": "C#",
-                  "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
-                },
-                {
-                  "name": "NoSQL",
-                  "link": "https://www.mongodb.com/nosql-explained"
-                },
-                {
-                  "name": "Server-side",
-                  "link": "#"
-                },
-                {
-                  "name": "Coding",
-                  "link": "#"
-                },
-                {
-                  "name": "Data storage",
-                  "link": "#"
+                  "link": ""
                 }
               ]
             },
             {
-              "name": "DevOps",
+              "name": "Frameworks & Libraries",
               "skills": [
+                {
+                  "name": "Laravel",
+                  "link": "https://laravel.com/"
+                },
+                {
+                  "name": "Vue.js",
+                  "link": "https://vuejs.org/"
+                },
+                {
+                  "name": "Livewire",
+                  "link": "https://livewire.laravel.com/"
+                },
+                {
+                  "name": "Alpine.js",
+                  "link": "https://alpinejs.dev/"
+                },
+                {
+                  "name": "Bootstrap",
+                  "link": "https://getbootstrap.com/"
+                },
+                {
+                  "name": "jQuery",
+                  "link": "https://jquery.com/"
+                }
+              ]
+            },
+            {
+              "name": "Databases & Architecture",
+              "skills": [
+                {
+                  "name": "MySQL",
+                  "link": "https://www.mysql.com/"
+                },
+                {
+                  "name": "Relational Database",
+                  "link": ""
+                },
+                {
+                  "name": "Database applications",
+                  "link": ""
+                },
+                {
+                  "name": "NoSQL",
+                  "link": ""
+                },
+                {
+                  "name": "RESTful APIs",
+                  "link": ""
+                },
+                {
+                  "name": "MVC",
+                  "link": ""
+                },
+                {
+                  "name": "N-Tiers Pattern",
+                  "link": ""
+                },
+                {
+                  "name": "SOLID Principles",
+                  "link": ""
+                },
+                {
+                  "name": "OOP",
+                  "link": ""
+                }
+              ]
+            },
+            {
+              "name": "DevOps & Tools",
+              "skills": [
+                {
+                  "name": "Version control",
+                  "link": ""
+                },
                 {
                   "name": "Git",
                   "link": "https://git-scm.com/"
                 },
                 {
-                  "name": "Github",
+                  "name": "GitHub",
                   "link": "https://github.com/"
-                },
-                {
-                  "name": "Gitlab",
-                  "link": "https://about.gitlab.com/"
                 },
                 {
                   "name": "Docker",
                   "link": "https://www.docker.com/"
                 },
                 {
-                  "name": "Nginx",
-                  "link": "https://www.nginx.com/"
-                },
-                {
-                  "name": "Linux",
-                  "link": "https://www.linux.org/"
-                },
-                {
                   "name": "CI/CD",
-                  "link": "https://www.synopsys.com/glossary/what-is-cicd.html#:~:text=CI%20and%20CD%20stand%20for,are%20made%20frequently%20and%20reliably."
+                  "link": ""
                 },
                 {
-                  "name": "Mercurial",
-                  "link": "https://www.mercurial-scm.org/"
+                  "name": "Laravel Forge",
+                  "link": "https://forge.laravel.com/"
                 },
                 {
-                  "name": "SVN",
-                  "link": "https://subversion.apache.org/"
+                  "name": "Nginx",
+                  "link": ""
                 },
                 {
-                  "name": "Problem-solving",
-                  "link": "#"
-                },
-                {
-                  "name": "Troubleshooting",
-                  "link": "#"
-                },
-                {
-                  "name": "Code versioning tools",
-                  "link": "#"
+                  "name": "GitLab",
+                  "link": "https://about.gitlab.com/"
                 }
               ]
             },
             {
-              "name": "Ecosystem",
+              "name": "Core Competencies",
               "skills": [
                 {
-                  "name": "Breeze",
-                  "link": "https://laravel.com/docs/10.x/starter-kits#laravel-breeze"
+                  "name": "Back-end Development",
+                  "link": ""
                 },
                 {
-                  "name": "Inertia",
-                  "link": "https://inertiajs.com/"
+                  "name": "API Design",
+                  "link": ""
                 },
                 {
-                  "name": "LIveWire",
-                  "link": "https://livewire.laravel.com/"
+                  "name": "Front-end Integration",
+                  "link": ""
                 },
                 {
-                  "name": "Forge",
-                  "link": "https://forge.laravel.com/"
+                  "name": "Web Applications",
+                  "link": ""
                 },
                 {
-                  "name": "Alpinejs",
-                  "link": "https://alpinejs.dev/"
+                  "name": "Problem-solving",
+                  "link": ""
+                },
+                {
+                  "name": "Troubleshooting",
+                  "link": ""
+                },
+                {
+                  "name": "Optimization",
+                  "link": ""
                 }
               ]
             }
