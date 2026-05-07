@@ -9,7 +9,7 @@ import type { PageContextServer } from './types';
 import { DefaultLayout } from '#root/layouts/DefaultLayout';
 import { EmptyLayout } from '#root/layouts/EmptyLayout';
 
-const WEBSITE_LINK = 'https://kamal.alhumsi.me/resume';
+const WEBSITE_LINK = 'https://abdullah.alhumsi.me/resume';
 
 async function render(pageContext: PageContextServer) {
   const { Page, pageProps } = pageContext;

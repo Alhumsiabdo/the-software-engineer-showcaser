@@ -21,8 +21,8 @@ export { ShowcaseLayout as Layout } from '#root/layouts/ShowcaseLayout';
 export { DeploymentInfo as Footer } from './components/DeploymentInfo';
 
 export const documentProps: DocumentProps = {
-  title: 'Kamal Alhumsi - Résumé',
-  description: 'The résumé of Kamal Alhumsi — Product Engineer & Founder.',
+  title: 'Abdullah Alhumsi - Résumé',
+  description: 'The résumé of Abdullah Alhumsi — Backend Developer.',
 };
 
 export type ResumePageProps = PageProps & {

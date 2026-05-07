@@ -17,28 +17,31 @@ function EmploymentSection({ work }: EmploymentSectionProps) {
     const jobEndDate =
       job.endDate === 'PRESENT' ? new Date() : new Date(job.endDate);
     const jobStartDate = new Date(job.startDate);
+    const isValidStartDate = !isNaN(jobStartDate.getTime());
+    const isValidEndDate = !isNaN(jobEndDate.getTime());
 
     const diffInYears = useMemo(
-      () => differenceInYears(jobEndDate, jobStartDate),
-      [job],
+      () => (isValidStartDate && isValidEndDate ? differenceInYears(jobEndDate, jobStartDate) : 0),
+      [job, isValidStartDate, isValidEndDate],
     );
     const diffInMonths = useMemo(() => {
+      if (!isValidStartDate || !isValidEndDate) return 'unknown duration';
       const months =
         differenceInMonths(
           jobEndDate,
           diffInYears > 0 ? startOfYear(jobEndDate) : jobStartDate,
         ) + 1;
       return months + (months === 1 ? ' month' : ' months');
-    }, [job]);
+    }, [job, isValidStartDate, isValidEndDate, diffInYears]);
 
     const duration = useMemo(
       () => `${diffInYears > 0 ? diffInYears + ' years ' : ''}${diffInMonths}`,
       [diffInYears, diffInMonths],
     );
 
-    const startLabel = format(jobStartDate, 'MMM yyyy');
+    const startLabel = isValidStartDate ? format(jobStartDate, 'MMM yyyy') : job.startDate;
     const endLabel =
-      job.endDate === 'PRESENT' ? 'Present' : format(jobEndDate, 'MMM yyyy');
+      job.endDate === 'PRESENT' ? 'Present' : (isValidEndDate ? format(jobEndDate, 'MMM yyyy') : job.endDate);
 
     return (
       <div className="mb-5" key={index}>

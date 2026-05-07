@@ -51,3 +51,8 @@ header a {
     background-color: #d1d5db;
   }
 }
+
+.markdown-content p {
+  display: inline;
+  margin: 0;
+}
