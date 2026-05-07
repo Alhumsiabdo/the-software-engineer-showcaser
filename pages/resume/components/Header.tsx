@@ -1,77 +1,42 @@
-import { BasicInfo, KernedLetter } from '#root/services/ContentLoader/types';
+import { BasicInfo } from '#root/services/ContentLoader/types';
 import React from 'react';
-import { useLanguage } from './LanguageSection';
 
 export { Header };
 
-type HeaderProps = { basicInfo: Omit<BasicInfo, 'profiles'> };
+type HeaderProps = { basicInfo: BasicInfo };
 function Header({ basicInfo }: HeaderProps) {
-  const { getLocalizedContent, currentLanguage } = useLanguage();
-  
-  // Get localized basic info if available, otherwise use default
-  const localizedBasics = getLocalizedContent('basics');
-  const displayInfo = localizedBasics || basicInfo;
-  
+  const { name, title, phone, email, profiles } = basicInfo;
+
+  const contactItems: { text: string; url?: string }[] = [
+    { text: phone },
+    { text: email.username, url: email.url },
+    ...profiles.map((p) => ({ text: p.username, url: p.url })),
+  ];
+
   return (
-    <>
-      <header className="grid grid-cols-1 grid-rows-3 items-center justify-between sm:grid-cols-6 sm:grid-rows-1 print:grid-cols-6 print:grid-rows-1" key={currentLanguage}>
-        <div
-          className="order-3 mt-4 justify-self-center text-lg
-        sm:order-none sm:col-start-1 sm:col-end-2 sm:mt-auto sm:justify-self-start sm:text-sm
-        print:order-none print:col-start-1 print:col-end-2 print:mt-auto print:justify-self-start print:text-sm"
-        >
-          <Address>
-            {displayInfo.phone} <br /> {displayInfo.address}
-          </Address>
-        </div>
-        <div
-          className="order-2 mt-6 justify-self-center text-center
-        sm:order-none sm:col-start-2 sm:col-end-6 sm:mt-auto
-        print:order-none print:col-start-2 print:col-end-6 print:mt-auto"
-        >
-          <h1 className="title text-6xl tracking-tighter">
-            {localizedBasics && localizedBasics.name ? (
-              <span>{localizedBasics.name}</span>
+    <header className="text-center mb-6">
+      <h1 className="text-5xl sm:text-6xl print:text-6xl font-bold tracking-tight">
+        {name}
+      </h1>
+      {title && (
+        <p className="mt-1 text-gray-500 text-base sm:text-lg print:text-lg">
+          {title}
+        </p>
+      )}
+      <p className="mt-2 text-xs sm:text-base print:text-sm flex flex-wrap justify-center gap-x-1">
+        {contactItems.map((item, i) => (
+          <React.Fragment key={i}>
+            {i > 0 && <span className="text-gray-400">|</span>}
+            {item.url ? (
+              <a href={item.url} target="_blank">
+                {item.text}
+              </a>
             ) : (
-              <NameKerned kernedLetters={basicInfo.nameKerned} />
+              <span>{item.text}</span>
             )}
-          </h1>
-        </div>
-
-        <div
-          className="order-1 justify-self-center
-        sm:relative sm:order-none sm:justify-self-auto
-        print:relative print:order-none print:justify-self-auto"
-        >
-          <div className="sm:absolute sm:-top-12 sm:right-4 print:absolute print:-top-12 print:right-4">
-            <ProfilePicture image={basicInfo.image} />
-          </div>
-        </div>
-      </header>
-    </>
+          </React.Fragment>
+        ))}
+      </p>
+    </header>
   );
-}
-
-type NameKerned = { kernedLetters: KernedLetter[] };
-function NameKerned({ kernedLetters }: NameKerned) {
-  const title = kernedLetters.map((letter, index) => {
-    return typeof letter === 'string' ? (
-      <span key={index}>{letter}</span>
-    ) : (
-      <span style={{ letterSpacing: letter.letterSpacing }} key={index}>
-        {letter.character}
-      </span>
-    );
-  });
-  return <>{title}</>;
-}
-
-type AddressProps = { children: React.ReactNode };
-function Address({ children }: AddressProps) {
-  return <address className="not-italic leading-5">{children}</address>;
-}
-
-type ProfilePictureProps = { image: string };
-function ProfilePicture({ image }: ProfilePictureProps) {
-  return <img className="h-24 w-24 rounded-full object-cover" src={image} />;
 }

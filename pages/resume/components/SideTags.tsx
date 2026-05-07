@@ -9,15 +9,15 @@ function SideTags() {
   };
 
   return (
-    <div className="fixed top-2 z-10 xl:top-20 print:hidden">
+    <div className="fixed z-10 top-2 xl:top-20 print:hidden">
       <SideTag onClick={printThis}>
-        <Icon src="printer" width={12} height={12} className="inline" />
+        <Icon src="printer" className="inline w-5 h-5" />
         <h5 className="hidden lg:inline">Print This</h5>
       </SideTag>
 
       <a className="tag" href="/">
         <SideTag>
-          <Icon src="people" width={12} height={12} className="inline" />
+          <Icon src="people" className="inline w-5 h-5" />
           <h5 className="hidden lg:inline">Check HoA</h5>
         </SideTag>
       </a>

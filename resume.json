@@ -6,14 +6,19 @@
     " **I created a Telegram bot for the restaurant**: It helped customers find prices and branch locations, saving them time and hassle. Proud of this innovation and eager for more challenges ahead."
   ],
   "additionalExperience": [
-    "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: An open source resume application I used for this resume. I contributed by adding a skills section functionality. ",
-    "**[Laravel Error Notifier](https://github.com/Alhumsiabdo/laravel-error-notifier)**: A Laravel package that sends error notifications to various channels like Slack, Telegram, and Discord. I built this package to help developers monitor their applications."
+    "**The Software Engineer Showcaser**: An open source resume application I used for this resume. I contributed by adding a skills section functionality.",
+    "**Laravel Error Notifier**: A Laravel package that sends error notifications to various channels like Slack, Telegram, and Discord. I built this package to help developers monitor their applications."
   ],
   "basics": {
     "address": "Damascus, Syria",
-    "email": "abdullah.m.alhumsi@gmail.com",
+    "email": {
+      "icon": "envelope-at",
+      "url": "mailto:abdullah.m.alhumsi@gmail.com",
+      "username": "abdullah.m.alhumsi@gmail.com"
+    },
     "image": "/assets/images/profile-photo.jpeg",
     "name": "Abdullah Alhumsi",
+    "title": "PHP / Laravel Backend Developer",
     "nameKerned": [
       {
         "character": "A",
@@ -77,26 +82,22 @@
     "phone": "+963 954 359 531",
     "profiles": [
       {
-        "icon": "envelope-at",
-        "url": "mailto:abdullah.m.alhumsi@gmail.com",
-        "username": "abdullah.m.alhumsi@gmail.com"
-      },
-      {
         "icon": "linkedin",
         "url": "https://www.linkedin.com/in/abdullah-alhumsi-979387284/",
-        "username": "abdullahalhumsi"
+        "username": "LinkedIn"
       },
       {
         "icon": "globe",
         "url": "https://abdullah.alhumsi.me",
-        "username": "abdullah.alhumsi.me"
+        "username": "Portfolio"
       },
       {
         "icon": "github",
         "url": "https://github.com/Alhumsiabdo",
-        "username": "abdullahalhumsi"
+        "username": "GitHub"
       }
     ],
+    "summary": "Results-driven PHP Developer specializing in the PHP and Laravel ecosystem. Over 5 years of professional experience architecting robust RESTful APIs, designing scalable Web Applications using the N-Tiers pattern, and successfully delivering multi-tenant applications, CRM platforms, and payment integrations. Proven track record of optimizing system performance, Troubleshooting complex issues, and ensuring data storage integrity in fast-paced software engineering roles. Possesses strong Problem-solving skills.",
     "url": "https://abdullah.alhumsi.me"
   },
   "education": [
@@ -110,12 +111,13 @@
       ],
       "institution": "Damasucs University",
       "startDate": "September 2018",
-      "url": "https://www.damascusuniversity.edu.sy/fmee/"
+      "url": "https://www.damascusuniversity.edu.sy/fmee/",
+      "description": "A multidisciplinary research program that focused on programming, networking, and laptop and computer maintenance. Selected courses: Data Structures And Algorithms, solid principles, Computer and laptop maintenance. Eager to apply this knowledge to contribute effectively in a professional setting. I look forward to leveraging my skills in dynamic and challenging projects, driving positive change and growth."
     }
   ],
   "work": [
     {
-      "endDate": "Present",
+      "endDate": "PRESENT",
       "highlights": [
         "Worked on the EUA project (Laravel API) for a company, implementing authentication, integrating a third-party API, and developing features using the N-Tiers design pattern.",
         "Contributed to [GROW CRM](https://growcrm.io/) by enhancing the task management system with workload tracking, task delegation, and issue resolution features.",
@@ -153,13 +155,15 @@
           "name": "Laravel Api"
         }
       ],
+      "location": "Baltim, Egypt",
+      "stack": "PHP, Laravel, MySQL, RESTful APIs, React",
       "name": "DomApp",
       "position": "Backend ( Php Laravel Mid )",
-      "startDate": "Feb 2025",
+      "startDate": "01 Feb 2025",
       "url": "https://www.domapphub.com/"
     },
     {
-      "endDate": "Feb 2025 ( 8 months )",
+      "endDate": "01 Feb 2025",
       "highlights": [
         "Worked on the [Paymac](https://paymac.net/) company website, fixing issues, improving the design, and ensuring responsiveness across devices.",
         "Contributed to the [Flove](https://flovegift.com/)Flove website and [App](https://play.google.com/store/apps/details?id=com.flovegift.flove_client&hl=en_US), a Saudi platform for buying gifts like flowers and chocolates, focusing on the product section and refactoring JavaScript for improved functionality.",
@@ -205,13 +209,15 @@
           "name": "Alpinejs"
         }
       ],
+      "location": "6th of October City, Egypt",
+      "stack": "PHP, Laravel, Livewire, Alpine.js, MySQL",
       "name": "Paymac",
       "position": "Backend ( Php Laravel )",
-      "startDate": "Aug 2024",
+      "startDate": "01 Aug 2024",
       "url": "https://paymac.net/"
     },
     {
-      "endDate": "Aug 2024 ( 3 months )",
+      "endDate": "01 Aug 2024",
       "highlights": [
         "Developed the [I Pluto](https://ipluto.app/) exam management feature on the Student Stage Online platform, enabling teachers to create exams by selecting questions and answers. Integrated front-end designs with the backend and implemented pages for managing exam units and details.",
         "Contributed to the [Golden Host](https://goldenhost.co/) website and app, implementing features that prevent hosts from deleting apartments once rented and allowing users to rate apartments only once.",
@@ -247,13 +253,15 @@
           "name": "Laravel Api"
         }
       ],
+      "location": "Tanta, Egypt",
+      "stack": "PHP, Laravel, MySQL",
       "name": "Creative Minds",
       "position": "Junior Backend ( Php laravel )",
-      "startDate": "May 2024",
+      "startDate": "01 May 2024",
       "url": "https://cems-it.com/"
     },
     {
-      "endDate": "Apr 2024 ( 1 year 6 months )",
+      "endDate": "01 Apr 2024",
       "highlights": [
         "Built the [Arabian Horse](https://arabian-horse.topbusiness.io/) website using PHP Laravel, focused on Arabian horse care. Integrated the Filament package for efficient content management and streamlined admin processes.",
         "Contributed to [SPA](https://spallia.com/), a Laravel-based platform for a major Cairo beauty center. Implemented CRUD operations, search, pagination, and efficient data querying. Created seed files.",
@@ -299,9 +307,11 @@
           "name": "Filament"
         }
       ],
+      "location": "Menofia, Egypt",
+      "stack": "PHP, Laravel, Filament, MySQL",
       "name": "Top Business",
       "position": "Fresh Backend ( Php Laravel )",
-      "startDate": "Oct 2022",
+      "startDate": "01 Oct 2022",
       "url": "https://topbusiness.io/"
     }
   ],
@@ -1145,6 +1155,24 @@
     {
       "language": "German",
       "fluency": "Intermediate"
+    }
+  ],
+  "technicalSkills": [
+    {
+      "category": "Front-End",
+      "items": "HTML, CSS, Bootstrap, JS, Ajax, Vue"
+    },
+    {
+      "category": "Back-End",
+      "items": "PHP, Laravel, Python, Django, C#"
+    },
+    {
+      "category": "DevOps",
+      "items": "Git, Github, Gitlab, Docker, Nginx, Linux, CI/CD"
+    },
+    {
+      "category": "Ecosystem",
+      "items": "Breeze, Inertia, LIveWire, Forge, Alpinejs"
     }
   ]
 }

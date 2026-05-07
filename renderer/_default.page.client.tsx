@@ -29,7 +29,7 @@ async function render(pageContext: PageContextClient) {
 
   // Initalize google analytics in production
   if (import.meta.env.PROD) {
-    ReactGA.initialize('G-R3NKXM1S6M');
+    ReactGA.initialize('G-EGQ5LEXDSW');
   }
 
   hydrateRoot(

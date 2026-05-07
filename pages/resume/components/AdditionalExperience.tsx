@@ -1,27 +1,21 @@
-import { ListType, SectionList } from '#root/components/SectionList';
+import { SectionContainer } from '#root/components/SectionContainer';
 import { AdditionalExperience as AdditionalExperienceType } from '#root/services/ContentLoader/types';
 import React from 'react';
-import { LocalizedSection } from './LocalizedSection';
-import { useLanguage } from './LanguageSection';
+import ReactMarkdown from 'react-markdown';
 
 export { AdditionalExperience };
 
-type AdditionalExperienceProps = {
-  additionalExperience: AdditionalExperienceType;
-};
-function AdditionalExperience({
-  additionalExperience,
-}: AdditionalExperienceProps) {
-  const { getLocalizedContent, currentLanguage } = useLanguage();
-  
-  // Get localized additional experience data if available, otherwise use default
-  const localizedAdditionalExperience = getLocalizedContent('additionalExperience') || additionalExperience;
-  
+type AdditionalExperienceProps = { additionalExperience: AdditionalExperienceType };
+function AdditionalExperience({ additionalExperience }: AdditionalExperienceProps) {
   return (
-    <LocalizedSection titleKey="additionalExperienceTitle" defaultTitle="Open Source">
-      <div className="mb-2" key={currentLanguage}>
-        <SectionList type={ListType.BULLET} points={localizedAdditionalExperience} />
-      </div>
-    </LocalizedSection>
+    <SectionContainer title="Open Source & Projects">
+      <ul className="list-disc ml-5 space-y-1.5 mb-2">
+        {additionalExperience.map((item, i) => (
+          <li key={i} className="leading-snug markdown-content">
+            <ReactMarkdown>{item}</ReactMarkdown>
+          </li>
+        ))}
+      </ul>
+    </SectionContainer>
   );
 }

@@ -2,11 +2,10 @@ import {
   AdditionalExperience,
   Awards,
   BasicInfo,
+  Certificate,
   Education,
-  SkillContainer,
+  TechnicalSkills,
   Work,
-  Language,
-  SpokenLanguage,
 } from './types';
 
 const makeMissingFieldErrorMessage = (field: string) =>
@@ -16,112 +15,62 @@ export function getAdditionalExperience(
   resumeData: unknown,
 ): AdditionalExperience {
   const field = 'additionalExperience';
-
-  if (
-    resumeData === null ||
-    typeof resumeData !== 'object' ||
-    !(field in resumeData)
-  ) {
+  if (resumeData === null || typeof resumeData !== 'object' || !(field in resumeData)) {
     throw new Error(makeMissingFieldErrorMessage(field));
   }
-
   return resumeData[field] as AdditionalExperience;
 }
 
 export function getEducation(resumeData: unknown): Education[] {
   const field = 'education';
+  if (resumeData === null || typeof resumeData !== 'object' || !(field in resumeData)) {
+    throw new Error(makeMissingFieldErrorMessage(field));
+  }
+  return resumeData[field] as Education[];
+}
+
+export function getCertificates(resumeData: unknown): Certificate[] {
+  const field = 'certificates';
 
   if (
     resumeData === null ||
     typeof resumeData !== 'object' ||
     !(field in resumeData)
   ) {
-    throw new Error(makeMissingFieldErrorMessage(field));
+    return [];
   }
 
-  return resumeData[field] as Education[];
+  return resumeData[field] as Certificate[];
 }
 
 export function getAwards(resumeData: unknown): Awards {
   const field = 'awards';
-
-  if (
-    resumeData === null ||
-    typeof resumeData !== 'object' ||
-    !(field in resumeData)
-  ) {
+  if (resumeData === null || typeof resumeData !== 'object' || !(field in resumeData)) {
     throw new Error(makeMissingFieldErrorMessage(field));
   }
-
   return resumeData[field] as Awards;
 }
 
 export function getWork(resumeData: unknown): Work[] {
   const field = 'work';
-
-  if (
-    resumeData === null ||
-    typeof resumeData !== 'object' ||
-    !(field in resumeData)
-  ) {
+  if (resumeData === null || typeof resumeData !== 'object' || !(field in resumeData)) {
     throw new Error(makeMissingFieldErrorMessage(field));
   }
-
   return resumeData[field] as Work[];
 }
 
-export function getSkills(resumeData: unknown): SkillContainer[] {
-  const field = 'skills';
-
-  if (
-    resumeData === null ||
-    typeof resumeData !== 'object' ||
-    !(field in resumeData)
-  ) {
-    throw new Error(makeMissingFieldErrorMessage(field));
+export function getTechnicalSkills(resumeData: unknown): TechnicalSkills {
+  const field = 'technicalSkills';
+  if (resumeData === null || typeof resumeData !== 'object' || !(field in resumeData)) {
+    return [];
   }
-
-  return resumeData[field] as SkillContainer[];
+  return resumeData[field] as TechnicalSkills;
 }
 
 export const getBasicInfo = (resumeData: unknown): BasicInfo => {
   const field = 'basics';
-
-  if (
-    resumeData === null ||
-    typeof resumeData !== 'object' ||
-    !(field in resumeData)
-  ) {
+  if (resumeData === null || typeof resumeData !== 'object' || !(field in resumeData)) {
     throw new Error(makeMissingFieldErrorMessage(field));
   }
-
   return resumeData[field] as BasicInfo;
 };
-
-export function getLanguages(resumeData: unknown): Language[] {
-  const field = 'languages';
-
-  if (
-    resumeData === null ||
-    typeof resumeData !== 'object' ||
-    !(field in resumeData)
-  ) {
-    throw new Error(makeMissingFieldErrorMessage(field));
-  }
-
-  return resumeData[field] as Language[];
-}
-
-export function getSpokenLanguages(resumeData: unknown): SpokenLanguage[] {
-  const field = 'spokenLanguages';
-
-  if (
-    resumeData === null ||
-    typeof resumeData !== 'object' ||
-    !(field in resumeData)
-  ) {
-    throw new Error(makeMissingFieldErrorMessage(field));
-  }
-
-  return resumeData[field] as SpokenLanguage[];
-}

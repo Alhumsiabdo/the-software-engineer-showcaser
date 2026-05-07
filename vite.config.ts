@@ -2,6 +2,7 @@ import react from '@vitejs/plugin-react';
 import ssr from 'vite-plugin-ssr/plugin';
 import { UserConfig, defineConfig } from 'vite';
 import dotenv from 'dotenv';
+import path from 'path';
 
 export default defineConfig(() => {
   dotenv.config();
@@ -11,6 +12,11 @@ export default defineConfig(() => {
     resolve: {
       alias: {
         '#root': __dirname,
+      },
+    },
+    server: {
+      fs: {
+        allow: [__dirname, path.resolve(__dirname, '../../..')],
       },
     },
   };

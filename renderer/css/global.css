@@ -4,33 +4,55 @@ body {
   @apply antialiased md:bg-indigo-50;
   @apply print:bg-white;
 
-  font-size: 14px;
+ font-size: 14px;
 }
 
-a,
-.title {
-  color: rgba(71, 116, 213, 1);
+a {
+  color: inherit;
 }
 
-a:not(.tag):hover {
+a:hover {
   text-decoration: underline;
+}
+
+header a {
+  color: rgba(71, 116, 213, 1);
 }
 
 @screen md {
   html,
   body {
-    font-size: 7.7px;
+    font-size: 10px;
   }
 }
-
 @screen print {
   html,
   body {
-    font-size: 7.7px;
+    font-size: 10px;
   }
 }
 
 @page {
   size: A4 portrait;
+  margin: 0;
+  margin-top: 1.5cm;
+  margin-bottom: 1.5cm;
+}
+
+@media print {
+  body::after {
+    content: '';
+    display: block;
+    position: fixed;
+    bottom: 0.6cm;
+    left: 1.6in;
+    right: 1.6in;
+    height: 1px;
+    background-color: #d1d5db;
+  }
+}
+
+.markdown-content p {
+  display: inline;
   margin: 0;
 }

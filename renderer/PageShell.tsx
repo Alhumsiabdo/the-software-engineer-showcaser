@@ -6,9 +6,6 @@ import type { PageContext } from './types';
 import './css/tailwind.css';
 import './css/global.css';
 
-// Fonts
-import '@fontsource/kadwa/400.css';
-
 export { PageShell };
 
 function PageShell({

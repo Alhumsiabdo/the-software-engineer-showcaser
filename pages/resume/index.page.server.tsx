@@ -3,50 +3,28 @@ import {
   getAdditionalExperience,
   getAwards,
   getBasicInfo,
+  getCertificates,
   getEducation,
-  getSkills,
+  getTechnicalSkills,
   getWork,
-  getLanguages,
-  getSpokenLanguages,
 } from '#root/services/ContentLoader';
 import { ResumePageProps } from './index.page';
 
-import { PageContextServer } from '#root/renderer/types';
-
-export function onBeforeRender(pageContext: PageContextServer) {
-  const languages = getLanguages(resumeJson);
-  const locale = pageContext.locale || 'en';
-
-  let basicInfo = getBasicInfo(resumeJson);
-  let work = getWork(resumeJson);
-  let skills = getSkills(resumeJson);
-  let awards = getAwards(resumeJson);
-  let education = getEducation(resumeJson);
-  let additionalExperience = getAdditionalExperience(resumeJson);
-  let spokenLanguages = getSpokenLanguages(resumeJson);
-
-  // Find localized content
-  const languageData = languages.find(l => Object.keys(l.content).includes(locale));
-  if (languageData && languageData.content[locale]) {
-    const content = languageData.content[locale];
-    if (content.basics) basicInfo = { ...basicInfo, ...content.basics };
-    if (content.work) work = content.work;
-    if (content.skills) skills = content.skills;
-    if (content.awards) awards = content.awards;
-    if (content.education) education = content.education;
-    if (content.additionalExperience) additionalExperience = content.additionalExperience;
-    if (content.spokenLanguages) spokenLanguages = content.spokenLanguages;
-  }
+export function onBeforeRender() {
+  const basicInfo = getBasicInfo(resumeJson);
+  const work = getWork(resumeJson);
+  const awards = getAwards(resumeJson);
+  const education = getEducation(resumeJson);
+  const additionalExperience = getAdditionalExperience(resumeJson);
+  const technicalSkills = getTechnicalSkills(resumeJson);
 
   const pageProps: ResumePageProps = {
     basicInfo,
     work,
     awards,
-    skills,
     education,
     additionalExperience,
-    languages,
-    spokenLanguages,
+    technicalSkills,
   };
 
   return {

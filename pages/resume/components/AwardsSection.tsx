@@ -1,23 +1,21 @@
-import { ListType, SectionList } from '#root/components/SectionList';
+import { SectionContainer } from '#root/components/SectionContainer';
 import { Awards } from '#root/services/ContentLoader/types';
 import React from 'react';
-import { LocalizedSection } from './LocalizedSection';
-import { useLanguage } from './LanguageSection';
+import ReactMarkdown from 'react-markdown';
 
 export { AwardsSection };
 
 type AwardsSectionProps = { awards: Awards };
 function AwardsSection({ awards }: AwardsSectionProps) {
-  const { getLocalizedContent, currentLanguage } = useLanguage();
-  
-  // Get localized awards data if available, otherwise use default
-  const localizedAwards = getLocalizedContent('awards') || awards;
-  
   return (
-    <LocalizedSection titleKey="awardsTitle" defaultTitle="Awards and Most Proud of">
-      <div className="mb-2" key={currentLanguage}>
-        <SectionList type={ListType.BULLET} points={localizedAwards} />
-      </div>
-    </LocalizedSection>
+    <SectionContainer title="Notable Achievements">
+      <ul className="list-disc ml-5 space-y-1.5 mb-2">
+        {awards.map((item, i) => (
+          <li key={i} className="leading-snug markdown-content">
+            <ReactMarkdown>{item}</ReactMarkdown>
+          </li>
+        ))}
+      </ul>
+    </SectionContainer>
   );
 }

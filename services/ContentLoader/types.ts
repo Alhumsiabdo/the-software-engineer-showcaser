@@ -4,17 +4,10 @@ interface Profile {
   url: string;
 }
 
-interface Keyword {
-  name: string;
-  link: string;
+export interface TechnicalSkill {
+  category: string;
+  items: string;
 }
-
-export type KernedLetter =
-  | string
-  | {
-    character: string;
-    letterSpacing: string;
-  };
 
 export interface Work {
   name: string;
@@ -22,52 +15,50 @@ export interface Work {
   url: string;
   startDate: string;
   endDate: string;
-  summary: string;
+  location?: string;
   highlights: string[];
-  keywords: Keyword[];
+  stack?: string | null;
+  keywords: { name: string; link: string }[];
 }
 
 export interface BasicInfo {
   name: string;
-  nameKerned: KernedLetter[];
+  title?: string;
+  summary?: string;
   image: string;
-  email: string;
   phone: string;
   url: string;
-  address: string;
+  email: Profile;
   profiles: Profile[];
 }
 
 export interface Education {
-  area: string;
-  endDate: string;
-  startDate: string;
-  highlights: string[];
   institution: string;
-  url: string;
+  description: string;
+  date?: string;
+  url?: string;
 }
 
-export interface SkillContainer {
+export interface Certificate {
   name: string;
-  skills: Skill[]
+  issuer: string;
+  url: string;
+  highlights?: string[];
 }
+
+export type Awards = string[];
+export type AdditionalExperience = string[];
+export type TechnicalSkills = TechnicalSkill[];
 
 export interface Skill {
   name: string;
   link: string;
 }
 
-export interface Education {
-  area: string;
-  endDate: string;
-  startDate: string;
-  highlights: string[];
-  institution: string;
-  url: string;
+export interface SkillContainer {
+  name: string;
+  skills: Skill[];
 }
-
-export type Awards = string[];
-export type AdditionalExperience = string[];
 
 export interface SpokenLanguage {
   language: string;

@@ -5,17 +5,12 @@ export { Icon };
 
 type IconProps = {
   src: string;
-  width: number;
-  height: number;
   className?: string;
 };
-function Icon({ src, width, height, className }: IconProps) {
+function Icon({ src, className }: IconProps) {
   return (
     <svg
       className={className}
-      width={width}
-      height={height}
-      style={{ minWidth: `${width}px`, minHeight: `${height}px` }}
       fill="currentColor"
     >
       <use xlinkHref={`${iconsPath}#${src}`} />
