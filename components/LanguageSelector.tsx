@@ -36,9 +36,9 @@ export function LanguageSelector() {
                 onClick={() => setIsOpen(!isOpen)}
                 className="flex items-center gap-2 rounded-full bg-black/30 px-4 py-2 text-sm font-medium text-white backdrop-blur-md transition-colors hover:bg-black/40"
             >
-                <Icon src="globe" width={16} height={16} />
+                <Icon src="globe" className="w-4 h-4" />
                 <span>{locale === 'en' ? 'English' : 'Deutsch'}</span>
-                <Icon src="chevron-down" width={12} height={12} className={`transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+                <Icon src="chevron-down" className={`w-3 h-3 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
             </button>
 
             {isOpen && (

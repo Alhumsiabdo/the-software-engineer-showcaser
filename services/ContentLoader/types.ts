@@ -49,3 +49,26 @@ export interface Certificate {
 export type Awards = string[];
 export type AdditionalExperience = string[];
 export type TechnicalSkills = TechnicalSkill[];
+
+export interface Skill {
+  name: string;
+  link: string;
+}
+
+export interface SkillContainer {
+  name: string;
+  skills: Skill[];
+}
+
+export interface SpokenLanguage {
+  language: string;
+  fluency: string;
+}
+
+export interface Language {
+  name: string;
+  level: string;
+  content: {
+    [key: string]: any;
+  };
+}
