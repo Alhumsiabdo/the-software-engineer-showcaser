@@ -18,7 +18,7 @@ function DeploymentInfo() {
       </a>
       <a
         href="https://github.com/arabyalhomsi/the-software-engineer-showcaser"
-        className="flex flex-row gap-2"
+        className="flex flex-row items-center gap-2"
       >
         <span>View the source on Github</span>
         <Icon src="github" className='w-5 h-5' />

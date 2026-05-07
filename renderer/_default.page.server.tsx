@@ -1,5 +1,6 @@
 export { render };
-export const passToClient = ['pageProps', 'urlPathname'];
+export { prerender };
+export const passToClient = ['pageProps', 'urlPathname', 'locale'];
 
 import ReactDOMServer from 'react-dom/server';
 import React from 'react';
@@ -10,6 +11,18 @@ import { DefaultLayout } from '#root/layouts/DefaultLayout';
 import { EmptyLayout } from '#root/layouts/EmptyLayout';
 
 const WEBSITE_LINK = 'https://abdullah.alhumsi.me/resume';
+
+function prerender() {
+  return [
+    '/',
+    '/en',
+    '/de',
+    '/en/resume',
+    '/de/resume',
+  ];
+}
+
+
 
 async function render(pageContext: PageContextServer) {
   const { Page, pageProps } = pageContext;
@@ -38,7 +51,7 @@ async function render(pageContext: PageContextServer) {
     'App using Vite + vite-plugin-ssr';
 
   const documentHtml = escapeInject`<!DOCTYPE html>
-    <html lang="en">
+    <html lang="${pageContext.locale || 'en'}">
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

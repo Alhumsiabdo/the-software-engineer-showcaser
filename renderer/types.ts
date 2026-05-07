@@ -38,6 +38,7 @@ export type PageContextCustom = {
     OutOfLayout?: () => JSX.Element;
     Footer?: () => JSX.Element;
   };
+  locale: string;
 };
 
 type PageContextServer = PageContextBuiltIn<Page> & PageContextCustom;
