@@ -1,0 +1,1 @@
+import{j as s}from"./1979356d.js";const r="/assets/static/bootstrap-icons.5cd238ca.svg";function n({src:o,className:t}){return s("svg",{className:t,fill:"currentColor",children:s("use",{xlinkHref:`${r}#${o}`})})}export{n as I};

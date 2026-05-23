@@ -1,1 +1,0 @@
-import{a as s}from"./chunk-1a4eff8b.js";const r="/assets/static/bootstrap-icons.fe7b6130.svg";function c({src:o,className:t}){return s("svg",{className:t,fill:"currentColor",children:s("use",{xlinkHref:`${r}#${o}`})})}export{c as I};
