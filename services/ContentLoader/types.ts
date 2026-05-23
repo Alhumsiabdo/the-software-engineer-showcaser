@@ -30,6 +30,7 @@ export interface BasicInfo {
   url: string;
   email: Profile;
   profiles: Profile[];
+  nameKerned?: (string | { character: string; letterSpacing: string })[];
 }
 
 export interface Education {
