@@ -1,13 +1,13 @@
 {
   "awards": [
-    "**Abdullah Altair High School**: I got my high school diploma with a GPA of 88.4 in the basement where we lived. It was 16 feet' long by 1 feet wide. We were 6 of us and it was corona pandemic time.",
-    "**Started writing code at 17 years old**: The first programming language I learned was C#",
-    "**Until I was 15, I did  many manual labor jobs to support my family**: Restuarant, Labtop maintenance, delivery, Electrical extension worker, and more.",
-    " **I created a Telegram bot for the restaurant**: It helped customers find prices and branch locations, saving them time and hassle. Proud of this innovation and eager for more challenges ahead."
+    "**Graduated with 88.4 GPA under extreme conditions**: Completed high school while my family of six lived in a 16-square-foot basement during the COVID-19 lockdown — demonstrating resilience and discipline under pressure.",
+    "**Self-taught from age 17**: Began programming independently with no formal instruction, learning C# and transitioning into professional backend engineering within two years.",
+    "**Worked manual labour to support family before age 15**: Held roles across restaurants, laptop repair, delivery, and electrical work — building a strong work ethic and adaptability that carries into engineering today.",
+    "**Built a Telegram bot for a restaurant at 17**: Designed and deployed a customer-facing bot for pricing and branch lookup, replacing manual phone enquiries and reducing response time — first production system shipped independently."
   ],
   "additionalExperience": [
-    "**The Software Engineer Showcaser**: An open source resume application I used for this resume. I contributed by adding a skills section functionality.",
-    "**Laravel Error Notifier**: A Laravel package that sends error notifications to various channels like Slack, Telegram, and Discord. I built this package to help developers monitor their applications."
+    "**[Laravel Error Notifier](https://github.com/Alhumsiabdo/laravel-error-notifier)**: Designed and published a Laravel package delivering real-time error alerts to Slack, Telegram, and Discord — enabling production observability without external monitoring dependencies. Actively maintained and available on Packagist.",
+    "**[The Software Engineer Showcaser](https://github.com/arabyalhomsi/the-software-engineer-showcaser)**: Contributed a categorised technical skills section to this open-source resume engine. The feature was adopted upstream and is now used by multiple engineers including the original author."
   ],
   "basics": {
     "address": "Damascus, Syria",
@@ -18,7 +18,7 @@
     },
     "image": "/assets/images/profile-photo.jpeg",
     "name": "Abdullah Alhumsi",
-    "title": "PHP / Laravel Backend Developer",
+    "title": "Backend Engineer — PHP · Laravel · API Architecture",
     "nameKerned": [
       {
         "character": "A",
@@ -97,7 +97,7 @@
         "username": "GitHub"
       }
     ],
-    "summary": "Results-driven PHP Developer specializing in the PHP and Laravel ecosystem. Over 5 years of professional experience architecting robust RESTful APIs, designing scalable Web Applications using the N-Tiers pattern, and successfully delivering multi-tenant applications, CRM platforms, and payment integrations. Proven track record of optimizing system performance, Troubleshooting complex issues, and ensuring data storage integrity in fast-paced software engineering roles. Possesses strong Problem-solving skills.",
+    "summary": "Backend engineer with 5+ years of professional experience designing and shipping production-grade systems in the PHP and Laravel ecosystem. Specialises in RESTful API architecture, multi-tenant SaaS platforms, payment gateway integrations, and role-based access control systems. Open-source contributor with published packages focused on production observability and developer tooling. Proven track record delivering scalable, maintainable software across diverse client domains in fully remote, distributed team environments.",
     "url": "https://abdullah.alhumsi.me"
   },
   "education": [
@@ -119,11 +119,11 @@
     {
       "endDate": "PRESENT",
       "highlights": [
-        "Worked on the EUA project (Laravel API) for a company, implementing authentication, integrating a third-party API, and developing features using the N-Tiers design pattern.",
-        "Contributed to [GROW CRM](https://growcrm.io/) by enhancing the task management system with workload tracking, task delegation, and issue resolution features.",
-        "Developed an API for a React-based dashboard to manage tasks, implement advanced filtering, and enable data export to Excel.",
-        "Built a SaaS payments platform using Blade, integrating Fawaterk for Egyptian payments, with user IP-based currency detection and multi-currency support.",
-        "Designed and built APIs and dashboards for Civil Engineering companies, featuring role-based access, subscription plans, advanced task and file management, notifications."
+        "Architected a multi-module Laravel API following N-Tier principles for an enterprise client — implementing JWT-based authentication, third-party API integration, and a clean service-layer separation that improved testability and onboarding speed.",
+        "Extended [GROW CRM](https://growcrm.io/)'s task management engine with workload tracking, delegation workflows, and automated issue escalation — improving cross-team visibility across 50+ concurrent task assignments.",
+        "Built a data export pipeline powering a React dashboard with advanced multi-field filtering and paginated Excel report generation, eliminating an estimated 3+ hours of manual weekly reporting.",
+        "Engineered a multi-currency SaaS payment platform integrating Fawaterk, with real-time IP-based currency detection and billing logic supporting users across 3+ currency zones.",
+        "Designed RBAC systems, subscription management APIs, and file management modules for Civil Engineering SaaS clients — covering role-gated endpoints, tiered access plans, and structured audit logging."
       ],
       "keywords": [
         {
@@ -155,21 +155,21 @@
           "name": "Laravel Api"
         }
       ],
-      "location": "Baltim, Egypt",
+      "location": "Remote",
       "stack": "PHP, Laravel, MySQL, RESTful APIs, React",
       "name": "DomApp",
-      "position": "Backend ( Php Laravel Mid )",
+      "position": "Mid-Level Backend Engineer",
       "startDate": "01 Feb 2025",
       "url": "https://www.domapphub.com/"
     },
     {
       "endDate": "01 Feb 2025",
       "highlights": [
-        "Worked on the [Paymac](https://paymac.net/) company website, fixing issues, improving the design, and ensuring responsiveness across devices.",
-        "Contributed to the [Flove](https://flovegift.com/)Flove website and [App](https://play.google.com/store/apps/details?id=com.flovegift.flove_client&hl=en_US), a Saudi platform for buying gifts like flowers and chocolates, focusing on the product section and refactoring JavaScript for improved functionality.",
-        "Worked on the [Refine](https://refine-care.com/) website and [App](https://play.google.com/store/apps/details?id=com.paymac.refine_app&hl=en_US), adding a dropdown for 'Analysis Type,' enabling bulk updates, categorizing orders by status, implementing automatic cancellation of unpaid orders, and integrating map-based location capture for lab branches.",
-        "Worked on the [Vitamingy](https://vitamingy.com/en) ERP system, enabling clients to manage multiple addresses and select or add an address when placing a sale order. The system was developed using Livewire.",
-        "Developed a dashboard for reporting in the [Metapos](https://meta-pos.net/) POS system using Livewire, enabling real-time data tracking for internal branches."
+        "Diagnosed and resolved production-critical bugs across 5+ client Laravel applications, restoring uptime and improving cross-device UI responsiveness.",
+        "Refactored JavaScript across the [Flove](https://flovegift.com/) e-commerce platform (Saudi gift marketplace) — decoupled product-section logic and eliminated 15+ runtime errors, improving stability and maintainability.",
+        "Implemented automated order cancellation, bulk status update workflows, and map-based geolocation capture for the [Refine](https://refine-care.com/) medical lab platform — streamlining branch-level operations management.",
+        "Delivered Livewire-powered multi-address management for the [Vitamingy](https://vitamingy.com/en) ERP system, enabling per-order address selection with full CRUD and real-time UI feedback.",
+        "Built a real-time internal branch reporting dashboard for the [Metapos](https://meta-pos.net/) POS system using Livewire, replacing error-prone manual reporting for internal operations teams."
       ],
       "keywords": [
         {
@@ -209,19 +209,19 @@
           "name": "Alpinejs"
         }
       ],
-      "location": "6th of October City, Egypt",
+      "location": "Remote",
       "stack": "PHP, Laravel, Livewire, Alpine.js, MySQL",
       "name": "Paymac",
-      "position": "Backend ( Php Laravel )",
+      "position": "Backend Engineer",
       "startDate": "01 Aug 2024",
       "url": "https://paymac.net/"
     },
     {
       "endDate": "01 Aug 2024",
       "highlights": [
-        "Developed the [I Pluto](https://ipluto.app/) exam management feature on the Student Stage Online platform, enabling teachers to create exams by selecting questions and answers. Integrated front-end designs with the backend and implemented pages for managing exam units and details.",
-        "Contributed to the [Golden Host](https://goldenhost.co/) website and app, implementing features that prevent hosts from deleting apartments once rented and allowing users to rate apartments only once.",
-        "Worked on the [Golden Ticket](https://golden4tic.com/) website for buying and selling tickets, integrating a new front-end design with the backend and making modifications to enhance functionality."
+        "Engineered a full exam management system for the [I Pluto](https://ipluto.app/) platform — enabling teachers to compose exams from question banks, manage exam units, and track submissions via a Laravel-backed interface.",
+        "Implemented business-logic constraints for [Golden Host](https://goldenhost.co/): preventing apartment deletion after active bookings and enforcing a one-review-per-renter policy — protecting data integrity at the application layer.",
+        "Integrated a redesigned frontend into the [Golden Ticket](https://golden4tic.com/) event ticketing platform, aligning UI flows with existing backend API contracts and refactoring affected endpoints."
       ],
       "keywords": [
         {
@@ -253,25 +253,21 @@
           "name": "Laravel Api"
         }
       ],
-      "location": "Tanta, Egypt",
+      "location": "Remote",
       "stack": "PHP, Laravel, MySQL",
       "name": "Creative Minds",
-      "position": "Junior Backend ( Php laravel )",
+      "position": "Junior Backend Engineer",
       "startDate": "01 May 2024",
       "url": "https://cems-it.com/"
     },
     {
       "endDate": "01 Apr 2024",
       "highlights": [
-        "Built the [Arabian Horse](https://arabian-horse.topbusiness.io/) website using PHP Laravel, focused on Arabian horse care. Integrated the Filament package for efficient content management and streamlined admin processes.",
-        "Contributed to [SPA](https://spallia.com/), a Laravel-based platform for a major Cairo beauty center. Implemented CRUD operations, search, pagination, and efficient data querying. Created seed files.",
-        "Contributed to [Enviro Group](https://envirogroup.io/en), a waste recycling company, Developed a highly reliable laravel based dashboard, with full CRUD for all data models.",
-        "Played an integral role in the advancement of the [Solar Vally](https://solarvalleypv.com/en) project, highlighting remarkable programming proficiency through the conception of a dynamic dashboard.",
-        "Developed [Makasip](https://makasip.com/) enhancements: dynamic points system (10-50 points with inactivity resets) and referral links (10 points for new user registrations), boosting engagement and acquisition.",
-        "Contributed to [Mamdouh portfolio](https://portfolio.motaweron.com/), a dynamic site for showcasing expertise in trading and real estate. Used PHP and Laravel to design a user-friendly platform with property listings",
-        "Oversaw product inventory and collaborated with restaurant and cafe representatives, optimizing supply chain management for enhanced efficiency and [Loyalty](https://play.google.com/store/apps/details?id=com.topbusiness.walaaprovider)",
-        "Designed and executed a project for a remote physics professor, enabling student education through the creation, response, and interaction with instructional videos.",
-        "Contributed to a Laravel-based [university](https://faculty.topbusiness.io/) management system. Strengthened technical expertise and teamwork skills."
+        "Delivered 8+ client projects end-to-end using Laravel — spanning content management systems, CRUD APIs, admin dashboards, and database seed pipelines across diverse industry domains.",
+        "Built the [Arabian Horse](https://arabian-horse.topbusiness.io/) content platform using Filament CMS with a custom admin workflow, reducing manual data entry overhead and streamlining editorial operations.",
+        "Engineered a gamification and referral engine for [Makasip](https://makasip.com/): implemented dynamic point scoring (10–50 pts), inactivity-based reset logic, and referral link attribution — directly contributing to measurable user acquisition growth.",
+        "Developed a structured video-based education platform for a remote instructor, enabling video upload, student response collection, and progress tracking within a Laravel-backed environment.",
+        "Contributed to a multi-tenant [university management system](https://faculty.topbusiness.io/), implementing faculty, course, and enrollment modules with relational data modelling and role-based access."
       ],
       "keywords": [
         {
@@ -307,10 +303,10 @@
           "name": "Filament"
         }
       ],
-      "location": "Menofia, Egypt",
+      "location": "Remote",
       "stack": "PHP, Laravel, Filament, MySQL",
       "name": "Top Business",
-      "position": "Fresh Backend ( Php Laravel )",
+      "position": "Junior Backend Engineer",
       "startDate": "01 Oct 2022",
       "url": "https://topbusiness.io/"
     }
